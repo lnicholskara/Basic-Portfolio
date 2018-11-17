@@ -5,44 +5,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kara Nichols</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
         <script src="main.js"></script>
     </head>
     
 <body>
-    <header>
-        <h1 class=name>Kara Nichols</h1>
-            <h3 class=navigation>Portfolio</h3>
-            <h3 class=navigation>Contact</h3>
-            <h3 class=navigation>About</h3>
-    </header>
 
-    <div class="portfolio">
-        <h2>Portfolio</h2>
+<header>
+        <div class="name">Kara Nichols</div>
+                <nav id="navigation">
+                    <div id="category">About</div>
+                    <div id="category">Contact</div>
+                    <div id="category">Portfolio</div>
+                </nav>
+</header>
 
-            <div class="Image1">
-                <img src="assets/images/GenericImage1.jpg" alt="Old Building" class="portpicture">
-                <h3 class="descriptions">RockPaperScissors</h3>
+    <div class="wrapper">
+            
+        <section class="portfolio">
+                    
+            <h2 id="title">Portfolio</h2>
+
+            <hr/>
+
+            <div id="grid"></div>
+            
+                <figure class="Image1">
+                    <img src="assets/images/GenericImage1.jpg" alt="Old Building" class="portpicture">
+                        <figcaption><p class="descriptions">RockPaperScissors</p></figcaption>
+                </figure>
+            
+                <figure class="Image2">
+                    <img src="assets/images/GenericImage2.jpg" alt="Technical Equipment" class="portpicture">
+                        <figcaption><p class="descriptions">RPG Game</p></figcaption>
+                </figure>
+            
+                <figure class="Image3">
+                    <img src="assets/images/GenericImage3.jpg" alt="Swimming" class="portpicture">
+                        <figcaption><p class="descriptions">Trivia Game</p></figcaption>
+                </figure>
+            
+                <figure class="Image4">
+                    <img src="assets/images/GenericImage4.jpg" alt="Trees in Fall" class="portpicture">
+                        <figcaption><p class="descriptions">Hangman</p></figcaption>
+                </figure>
+            
             </div>
-
-            <div class="Image2">
-                <img src="assets/images/GenericImage2.jpg" alt="Technical Equipment" class="portpicture">
-                <h3 class="descriptions">RPG Game</h3>
-            </div>
-
-            <div class="Image3">
-                <img src="assets/images/GenericImage3.jpg" alt="Swimming" class="portpicture">
-                <h3 class="descriptions">Trivia Game</h3>
-            </div>
-
-            <div class="Image4">
-                <img src="assets/images/GenericImage4.jpg" alt="Trees in Fall" class="portpicture">
-                <h3 class="descriptions">Hangman</h3>
-            </div>
+            
+        </section>
 
     </div>
-
-    <footer class=copyright>Copyright</footer>
+    
+    <footer class=copyright>Copyright ©</footer>
 
 </body>
 </html>

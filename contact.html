@@ -5,33 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kara Nichols</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
         <script src="main.js"></script>
     </head>
 
 <body>
-    <header>
-        <h1 class=name>Kara Nichols</h1>
-            <h3 class=navigation>Portfolio</h3>
-            <h3 class=navigation>Contact</h3>
-            <h3 class=navigation>About</h3>
-    </header>
+        <header>
+                <div class="name">Kara Nichols</div>
+                        <nav id="navigation">
+                            <div id="category">About</div>
+                            <div id="category">Contact</div>
+                            <div id="category">Portfolio</div>
+                        </nav>
+        </header>
 
-    <div class="contactform">
+    <div class="wrapper">
+
+    <main class="contactform">
+        
         <h2 id=title>Contact</h2>
+
+        <hr/>
+
+        <section>
             <form class="form">
                 Name<br>
                 <input type="text" name="fullname" class="oneline"><br>
                 Email<br>
                 <input type="text" name="email" class="oneline"><br>
                 Message<br>
-                <input type="text" name="message" class="message"><br>
+                <input type="text" name="message" class="message" size="68"><br>
                 <input type="submit" value="Submit" class="submit">
             </form>
+        </section>
                  
+    </main>
+
     </div>
 
-    <footer class=copyright>Copyright</footer>
+    <footer class=copyright>Copyright ©</footer>
     
 </body>
 </html>
