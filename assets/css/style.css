@@ -14,6 +14,8 @@ footer {
     height: 40px;
     margin-top: -40px;
     padding: 30px;
+    position: fixed;
+    width: 100%;
 }
 
 body {
@@ -64,6 +66,8 @@ body {
     vertical-align: center;
     margin: 14px;
     font-weight: bold;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .title {
@@ -253,4 +257,9 @@ input.submit:active {
 
 .Image4:hover {
     opacity: .8;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
 }
